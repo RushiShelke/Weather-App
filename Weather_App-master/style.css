@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: blueviolet;
+  background-image: url("data:image/jpeg;base64,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");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::selection {
+  color: #fff;
+  background: blue;
+}
+
+.wrapper {
+  width: 400px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper header {
+  display: flex;
+  font-size: 21px;
+  font-weight: 500;
+  color: black;
+  padding: 16px 15px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+header i {
+  font-size: 0em;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.wrapper.active header i {
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.wrapper .input-part {
+  margin: 20px 25px 30px;
+}
+
+.wrapper.active .input-part {
+  display: none;
+}
+
+.input-part .info-txt {
+  display: none;
+  font-size: 17px;
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.input-part .info-txt.error {
+  color: #721c24;
+  display: block;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+.input-part .info-txt.pending {
+  color: #0c5460;
+  display: block;
+  background: #d1ecf1;
+  border: 1px solid #bee5eb;
+}
+
+.input-part :where(input, button) {
+  width: 100%;
+  height: 55px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.input-part input {
+  text-align: center;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+}
+
+.input-part input:is(:focus, :valid) {
+  border: 2px solid #43AFFC;
+}
+
+.input-part input::placeholder {
+  color: #bfbfbf;
+}
+
+.input-part .separator {
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #ccc;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator::before {
+  content: "or";
+  color: #b3b3b3;
+  font-size: 19px;
+  padding: 0 15px;
+  background: #fff;
+}
+
+.input-part button {
+  color: #fff;
+  cursor: pointer;
+  background: black;
+  transition: 0.3s ease;
+}
+
+.input-part button:hover {
+  background: black;
+}
+
+.wrapper .weather-part {
+  display: none;
+  margin: 30px 0 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper.active .weather-part {
+  display: flex;
+}
+
+.weather-part img {
+  max-width: 125px;
+}
+
+.weather-part .temp {
+  display: flex;
+  font-weight: 500;
+  font-size: 72px;
+}
+
+.weather-part .temp .numb {
+  font-weight: 600;
+}
+
+.weather-part .temp .deg {
+  font-size: 40px;
+  display: block;
+  margin: 10px 5px 0 0;
+}
+
+.weather-part .weather {
+  font-size: 21px;
+  text-align: center;
+  margin: -5px 20px 15px;
+}
+
+.weather-part .location {
+  display: flex;
+  font-size: 19px;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.location i {
+  font-size: 22px;
+  margin: 4px 5px 0 0;
+}
+
+.weather-part .bottom-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
+
+.bottom-details .column {
+  display: flex;
+  width: 100%;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.column i {
+  color: #5DBBFF;
+  font-size: 40px;
+}
+
+.column.humidity {
+  border-left: 1px solid #ccc;
+}
+
+.column .details {
+  margin-left: 3px;
+}
+
+.details .temp,
+.humidity span {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -3px;
+}
+
+.details .temp .deg {
+  margin: 0;
+  font-size: 17px;
+  padding: 0 2px 0 1px;
+}
+
+.column .details p {
+  font-size: 14px;
+  margin-top: -6px;
+}
+
+.humidity i {
+  font-size: 37px;
+}
